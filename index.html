@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music_player</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="music">Music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!--<h2>My Playlist</h2>-->
+        <div class="songlist">
+            <h2>My Playlist</h2>
+            <div class="song1">
+                <img class="music1" src="https://cdn.shopify.com/s/files/1/0011/6005/2795/files/lofi-girl-kinissue1-1_2048x2048.jpg?v=1648546858" alt="music1" >
+                <span class = "songname">Lofi1</span>
+                <span><i id="1" class="songitemplay ri-play-fill"></i></span>
+            </div>
+            <div class="song1">
+                <img class="music1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG3qBeMAMPXnFr7Scv-KT9ewHxXk8NY1XqFQ&usqp=CAU" alt="music1">
+                <span class = "songname">Lofi2</span>
+                <span><i id="2" class="songitemplay ri-play-fill"></i></span>
+            </div>
+            <div class="song1">
+                <img class="music1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzhtRFKza7apRYijY1PsarZC4wu8-5lHaBxWSWKo0XXebeRldw3bzntqV_N8z1dujXV5U&usqp=CAU" alt="music1" >
+                <span class = "songname">Lofi3 </span>
+                <span><i id="3" class="songitemplay ri-play-fill"></i></span>
+            </div>
+            <div class="song1">
+                <img class="music1" src="https://mir-s3-cdn-cf.behance.net/projects/404/9737ba107812099.Y3JvcCwxMzgwLDEwODAsMjcwLDA.gif" alt="music1" >
+                <span class = "songname">Lofi4 </span>
+                <span><i id="4" class="songitemplay ri-play-fill"></i></span>
+            </div><div class="song1">
+                <img class="music1" src="https://wallpaperaccess.com/full/2867694.jpg" alt="music1" >
+                <span class = "songname">Lofi5 </span>
+                <span><i id="5" class="songitemplay ri-play-fill"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="icons">
+            <i class="ri-2x ri-skip-back-fill" id='previous'></i>
+            <i class="ri-2x ri-play-fill" id="masterplay"></i>
+            <i class="ri-2x ri-skip-forward-fill" id='next'></i>
+        </div>
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

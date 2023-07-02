@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    background-image: url(shrine.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.464);
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.brand img{
+    width: 34px;
+    padding: 0 4px;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    min-height: 70vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 22px auto;
+    width: 66%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.555),rgba(255, 255, 255, 0));
+    /* background-size: cover; */
+    padding: 22px;
+}
+.songlist h2{
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: aliceblue; */
+}
+
+.bottom{
+    background-color: rgba(0, 0, 0, 0.432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    flex-direction: column;
+    padding: 20px;
+}
+.icons{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.icons i{
+    cursor: pointer;
+    margin: 0 8px;
+    color: rgb(220, 220, 220);
+}
+#progressbar{
+    width: 70vw;
+    cursor: pointer;
+}
+.songlist{
+    position: absolute;
+    top: 16vh;
+    height: 70vh;
+    /* width: 20vw; */
+    /* background-color: aliceblue; */
+}
+.music1{
+    width: 40px;
+    height: 40px;
+    border-radius: 80rem;
+}
+.song1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+    padding: 10px 12px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(165, 165, 165),rgba(255, 255, 255, 0));
+}
+.song1 span{
+    margin-left: 12px;
+    color: rgba(223, 223, 223, 0.986);
+}
